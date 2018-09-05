@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign-python-switch</title>
+</head>
+<body>
+<script>
+    let a =prompt("Type a number:");
+    parseFloat(a);
+    if (a==0){
+        alert (0);
+    }else{
+        switch (a/Math.abs(a)) {
+            case 1:
+                alert(1);
+            case -1:
+                alert(0);
+        }
+    }
+</script>
+</body>
+</html>
